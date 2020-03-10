@@ -1,6 +1,5 @@
 
 document.getElementById("bt").addEventListener("click", function () {
-    const msg= document.getElementById("mensagem_erro");
     var lista = document.getElementById("ListaTarefas");
     var texto = document.getElementById("TextoNovo");
     var li = document.createElement("li");
@@ -9,7 +8,6 @@ document.getElementById("bt").addEventListener("click", function () {
 
     if(texto.value==""){
         return;
-
     }
 
     input.type="checkbox";
